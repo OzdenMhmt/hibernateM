@@ -28,9 +28,12 @@ public class H01_Sehir {
     @Column(name = "cityPlaka") // şehir plaka ismini değiştirmek için yapılır
     private int sehirPlaka;
     private String sehirAd;
-    public H01_Sehir(int sehirPlaka, String sehirAd) {
+    private int sehirNufus;
+    
+    public H01_Sehir(int sehirPlaka, String sehirAd,int sehirNufus) {
         this.sehirPlaka = sehirPlaka;
         this.sehirAd = sehirAd;
+        this.sehirNufus=sehirNufus;
     }
     public int getSehirPlaka() {
         return sehirPlaka;
@@ -44,8 +47,17 @@ public class H01_Sehir {
     public void setSehirAd(String sehirAd) {
         this.sehirAd = sehirAd;
     }
+    public int getSehirNufus() {
+        return sehirNufus;
+    }
+    public void setSehirNufus(int sehirNufus) {
+		this.sehirNufus = sehirNufus;
+	}
     @Override
     public String toString() {
-        return "H01_Sehir [sehirAd=" + sehirAd + ", sehirPlaka=" + sehirPlaka + "]";
+    	return "Sehir:Plaka=" + sehirPlaka + ", Ad=" + sehirAd + ", Nufus=" + sehirNufus ;
     }
+	public H01_Sehir() {
+		super();
+	}
 }

@@ -21,8 +21,8 @@ public class H02_Save {
 		Transaction tx=s.beginTransaction();
 		
 		
-		H01_Sehir sehir1= new H01_Sehir(34, "Istanbul");
-		H01_Sehir sehir2= new H01_Sehir(35, "Izmir");
+		H01_Sehir sehir1= new H01_Sehir(34, "Istanbul",10000000);
+		H01_Sehir sehir2= new H01_Sehir(35, "Izmir",2500000);
 		
 		s.save(sehir1);
 		s.save(sehir2);
