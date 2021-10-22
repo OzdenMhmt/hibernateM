@@ -1,4 +1,4 @@
-package h01_anotasyonlar;
+package h1_anotasyonlar;
 
 /**
  * Hello world!

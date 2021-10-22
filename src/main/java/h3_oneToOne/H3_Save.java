@@ -43,11 +43,11 @@ public class H3_Save {
                session.save(kisi2); 
                session.save(kisi3);
                
-               
+               System.out.println(gunluk1.getKisi()+" "+gunluk1.getYazilar()+" "+gunluk2.getKisi()+" "+gunluk3.getKisi().getKisiAd());
+              
               tx.commit(); 
                
-              sf.close();
-              session.close();
+              
 		
 	}
 }

@@ -1,4 +1,4 @@
-package h01_anotasyonlar;
+package h1_anotasyonlar;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;

@@ -1,4 +1,4 @@
-package h01_anotasyonlar;
+package h1_anotasyonlar;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;

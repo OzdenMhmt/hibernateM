@@ -5,7 +5,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
-import h01_anotasyonlar.H01_Sehir;
+import h1_anotasyonlar.H01_Sehir;
 
 public class H3_SaveFetch {
 
